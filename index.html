@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+  <head>
+    <meta charset="utf-8" />
+    <title>Your Data</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body style="height: 100%">
+    <div id="donut" style="height: 100vh;"></div>
+
+    <select id="heatMapSelector">
+      <option class="option1">volume</option>
+      <option class="option2">quantity</option>
+    </select>
+
+    <div id="heatmap" style="height: 50vh">
+    </div>
+    
+    <button id="line-chart-prev">Previous</button>
+    <span id="line-chart-page"></span>
+    <button id="line-chart-next">Next</button>
+    <div id="lineChart" style="height: 80vh">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

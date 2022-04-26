@@ -1,0 +1,29 @@
+body{
+    background-color: #FAF2EF;
+}
+
+#heatMapSelector,
+button {
+    border: #DFC8C8;
+    color: #FAF2EF;
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: #CDAEB0;
+}
+
+button{
+   margin: 30px;
+   padding: 5px;
+   width: 100px;
+   cursor: pointer;
+}
+
+span{
+    color: #CDAEB0;
+    font-weight: 900;
+    margin: -20px;
+}
+
+
